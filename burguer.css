@@ -1,0 +1,22 @@
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d3d3d; 
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    cursor: move;
+}
